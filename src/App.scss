@@ -1,0 +1,21 @@
+/* Base Bootstrap */
+@import "~bootstrap/scss/bootstrap";
+/* Bootstrap icons */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+
+/* Main styles */
+.din {
+  font-family: "D-DIN", sans-serif;
+}
+.din-bold {
+  font-family: "D-DIN Bold", sans-serif;
+  font-weight: bold;
+}
+.din-italic {
+  font-family: "D-DIN Italic", sans-serif;
+  font-style: italic;
+}
+.din-not {
+  font-family: "Times New Roman", serif;
+}
