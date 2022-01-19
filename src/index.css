@@ -1,39 +1,15 @@
 /* bring in normalize.css styles */
 @import-normalize;
-/* D-DIN font */
-@font-face {
-  font-family: "D-DIN";
-  src: url("fonts/D-DIN.woff2") format("woff2"),
-  url("fonts/D-DIN.woff") format("woff"),
-  url("fonts/D-DIN.ttf") format("truetype"),
-  url("fonts/D-DIN.otf") format("opentype");
-}
-@font-face {
-  font-family: "D-DIN Bold";
-  src: url("fonts/D-DIN-Bold.woff2") format("woff2"),
-  url("fonts/D-DIN-Bold.woff") format("woff"),
-  url("fonts/D-DIN-Bold.ttf") format("truetype"),
-  url("fonts/D-DIN-Bold.otf") format("opentype");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "D-DIN Italic";
-  src: url("fonts/D-DIN-Italic.woff2") format("woff2"),
-  url("fonts/D-DIN-Italic.woff") format("woff"),
-  url("fonts/D-DIN-Italic.ttf") format("truetype"),
-  url("fonts/D-DIN-Italic.otf") format("opentype");
-  font-style: italic;
-}
 body {
-  margin: 0;
-  font-family: 'D-DIN', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
